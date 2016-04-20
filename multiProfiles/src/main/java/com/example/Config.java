@@ -12,6 +12,8 @@ public class Config {
     private String b;
     private String c;
 
+    private Env env;
+
     private Boolean dev;
     private Boolean prod;
 
@@ -39,6 +41,14 @@ public class Config {
 
     public void setC(String c) {
         this.c = c;
+    }
+
+    public Env getEnv() {
+        return env;
+    }
+
+    public void setEnv(Env env) {
+        this.env = env;
     }
 
     public Boolean getDev() {
