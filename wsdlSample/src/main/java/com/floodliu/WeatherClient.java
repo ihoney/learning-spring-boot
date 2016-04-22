@@ -1,18 +1,19 @@
 package com.floodliu;
 
 import com.floodliu.wsdl.*;
+import org.slf4j.LoggerFactory;
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
 
 import java.text.SimpleDateFormat;
-import java.util.logging.Logger;
+import java.util.Date;
 
 /**
  * Created by hongtao on 16/4/21.
  */
 public class WeatherClient extends WebServiceGatewaySupport {
 
-    private Logger logger = Logger.getLogger(WeatherClient.class.getName());
+    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(WeatherClient.class);
 
     GetCityForecastByZIPResponse getCityForecastByZip(String zipCode) {
         GetCityForecastByZIP request = new GetCityForecastByZIP();
@@ -20,9 +21,11 @@ public class WeatherClient extends WebServiceGatewaySupport {
 
         logger.info("Requesting forecast for " + zipCode);
 
-        GetCityForecastByZIPResponse response = (GetCityForecastByZIPResponse) getWebServiceTemplate().marshalSendAndReceive(
-                request,
-                new SoapActionCallback("http://ws.cdyne.com/WeatherWS/GetCityForecastByZIP")
+        GetCityForecastByZIPResponse response = (GetCityForecastByZIPResponse) getWebServiceTemplate()
+                .marshalSendAndReceive(
+                        "http://wsf.cdyne.com/WeatherWS/Weather.asmx",
+                        request,
+                        new SoapActionCallback("http://ws.cdyne.com/WeatherWS/GetCityForecastByZIP")
         );
         return response;
     }
@@ -35,10 +38,13 @@ public class WeatherClient extends WebServiceGatewaySupport {
 
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
             for (Forecast forecast : forecastReturn.getForecastResult().getForecast()) {
-                logger.info(dateFormat.format(forecast.getDate().toGregorianCalendar().getTime()));
-                logger.info(forecast.getDesciption());
                 Temp temperature = forecast.getTemperatures();
-                logger.info(temperature.getMorningLow() + "\u00b0-" + temperature.getDaytimeHigh() + "\u00b0 ");
+                Date date = forecast.getDate().toGregorianCalendar().getTime();
+                String desc = forecast.getDesciption();
+                String low  = temperature.getMorningLow();
+                String high = temperature.getDaytimeHigh();
+                logger.info(String.format("%s %s %s-%s", dateFormat.format(date), desc, low, high));
+                logger.info("");
             }
         } else {
             logger.info("No forecast received");
