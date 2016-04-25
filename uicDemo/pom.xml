@@ -28,6 +28,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -38,12 +39,33 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.baidu.uic</groupId>
+			<artifactId>uic-client</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>baidu_local</id>
+			<name>Baidu Local</name>
+			<url>http://maven.scm.baidu.com:8081/nexus/content/repositories/Baidu_Local</url>
+		</repository>
+
+		<repository>
+			<id>baidu_local_snapshots</id>
+			<name>Baidu Local Snapshots</name>
+			<url>http://maven.scm.baidu.com:8081/nexus/content/repositories/Baidu_Local_Snapshots</url>
+		</repository>
+	</repositories>
 	
 	<build>
 		<plugins>

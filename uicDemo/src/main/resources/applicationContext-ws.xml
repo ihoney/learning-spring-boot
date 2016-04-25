@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxws="http://cxf.apache.org/jaxws" xmlns:http-conf="http://cxf.apache.org/transports/http/configuration"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+             http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+             http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
+             http://cxf.apache.org/transports/http/configuration
+             http://cxf.apache.org/schemas/configuration/http-conf.xsd ">
+    <!-- 设置客户端超时信息 单位为毫秒-->
+    <http-conf:conduit name="*.http-conduit">
+        <http-conf:client ConnectionTimeout="500000"
+                          ReceiveTimeout="600000" />
+    </http-conf:conduit>
+
+    <!-- SoapHeader AppKey -->
+    <bean id="headerInterceptor" class="com.baidu.uic.ws.filter.HeaderInterceptor">
+        <property name="appKey" value="${uic.appKey}"/>
+    </bean>
+
+    <!-- 用户信息接口 -->
+    <jaxws:client id="uicUserRemoteService"
+                  serviceClass="com.baidu.uic.ws.interfaces.IUserRemoteService" address="${uic.userRemoteService}">
+        <jaxws:outInterceptors>
+            <ref bean="headerInterceptor" />
+        </jaxws:outInterceptors>
+    </jaxws:client>
+
+    <!-- 部门信息接口 -->
+    <jaxws:client id="uicDepartmentRemoteService"
+                  serviceClass="com.baidu.uic.ws.interfaces.IDepartmentRemoteService" address="${uic.departmentRemoteService}">
+        <jaxws:outInterceptors>
+            <ref bean="headerInterceptor" />
+        </jaxws:outInterceptors>
+    </jaxws:client>
+
+    <!-- 职位信息接口 -->
+    <jaxws:client id="uicPositionRemoteService"
+                  serviceClass="com.baidu.uic.ws.interfaces.IPositionRemoteService" address="${uic.positionRemoteService}">
+        <jaxws:outInterceptors>
+            <ref bean="headerInterceptor" />
+        </jaxws:outInterceptors>
+    </jaxws:client>
+
+    <!-- 公司信息接口 -->
+    <jaxws:client id="uicCompanyRemoteService"
+                  serviceClass="com.baidu.uic.ws.interfaces.ICompanyRemoteService" address="${uic.companyRemoteService}">
+        <jaxws:outInterceptors>
+            <ref bean="headerInterceptor" />
+        </jaxws:outInterceptors>
+    </jaxws:client>
+
+    <!-- 邮件组信息接口 -->
+    <jaxws:client id="uicEmailgroupRemoteService"
+                  serviceClass="com.baidu.uic.ws.interfaces.IEmailgroupRemoteService" address="${uic.emailgroupRemoteService}">
+        <jaxws:outInterceptors>
+            <ref bean="headerInterceptor" />
+        </jaxws:outInterceptors>
+    </jaxws:client>
+
+    <!-- 产品线信息接口 -->
+    <jaxws:client id="uicProductRemoteService"
+                  serviceClass="com.baidu.uic.ws.interfaces.IProductRemoteService" address="${uic.productRemoteService}">
+        <jaxws:outInterceptors>
+            <ref bean="headerInterceptor" />
+        </jaxws:outInterceptors>
+    </jaxws:client>
+
+    <!-- 用户信息写接口 -->
+    <jaxws:client id="uicUserWriteRemoteService"
+                  serviceClass="com.baidu.uic.ws.interfaces.IUserWriteRemoteService" address="${uic.userWriteRemoteService}">
+        <jaxws:outInterceptors>
+            <ref bean="headerInterceptor" />
+        </jaxws:outInterceptors>
+    </jaxws:client>
+
+</beans>
