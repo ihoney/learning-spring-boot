@@ -1,3 +1,4 @@
+com/example/bookpub/repository/AuthorRepository.class
 com/example/bookpub/entity/Book.class
 com/example/bookpub/repository/BookRepository.class
 com/example/bookpub/DemoApplication.class
