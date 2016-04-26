@@ -1,2 +1,8 @@
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Reviewer.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/StartupRunner.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Publisher.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Author.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/DemoApplication.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/controller/BookController.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Book.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/repository/BookRepository.java
