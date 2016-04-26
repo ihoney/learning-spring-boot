@@ -109,18 +109,18 @@
       <file leaf-file-name="WebConfiguration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookpub/WebConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="28">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
-                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -813,14 +813,14 @@
           <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1209,18 +1209,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookpub/WebConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="28">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
           </folding>
         </state>
       </provider>
