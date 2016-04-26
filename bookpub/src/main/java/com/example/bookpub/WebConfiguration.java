@@ -14,26 +14,26 @@ import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 @Configuration
 public class WebConfiguration extends WebMvcConfigurerAdapter {
 
-    @Bean
-    public RemoteIpFilter remoteIpFilter() {
-        return new RemoteIpFilter();
-    }
-
-    @Bean
-    public LocaleChangeInterceptor localeChangeInterceptor() {
-        return new LocaleChangeInterceptor();
-    }
-
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(localeChangeInterceptor());
-    }
-
-    @Bean
-    public ByteArrayHttpMessageConverter byteArrayHttpMessageConverter() {
-        return new ByteArrayHttpMessageConverter();
-    }
-
+//    @Bean
+//    public RemoteIpFilter remoteIpFilter() {
+//        return new RemoteIpFilter();
+//    }
+//
+//    @Bean
+//    public LocaleChangeInterceptor localeChangeInterceptor() {
+//        return new LocaleChangeInterceptor();
+//    }
+//
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(localeChangeInterceptor());
+//    }
+//
+//    @Bean
+//    public ByteArrayHttpMessageConverter byteArrayHttpMessageConverter() {
+//        return new ByteArrayHttpMessageConverter();
+//    }
+//
 //    @Override
 //    public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
 //        converters.add(new ByteArrayHttpMessageConverter());
