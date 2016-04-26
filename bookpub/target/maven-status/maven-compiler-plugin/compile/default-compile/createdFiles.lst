@@ -1,2 +1,7 @@
+com/example/bookpub/entity/Book.class
+com/example/bookpub/repository/BookRepository.class
 com/example/bookpub/DemoApplication.class
+com/example/bookpub/entity/Reviewer.class
+com/example/bookpub/entity/Publisher.class
+com/example/bookpub/entity/Author.class
 com/example/bookpub/StartupRunner.class

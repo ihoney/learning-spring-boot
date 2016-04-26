@@ -1,5 +1,6 @@
 package com.example.bookpub;
 
+import com.example.bookpub.repository.BookRepository;
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,9 +17,13 @@ public class StartupRunner implements CommandLineRunner {
     @Autowired
     private DataSource dataSource;
 
+    @Autowired
+    private BookRepository bookRepository;
+
     @Override
     public void run(String... strings) throws Exception {
         logger.info("hello");
         logger.info("Datasource: " + dataSource.toString());
+        logger.info("Number of books: " + bookRepository.count());
     }
 }
