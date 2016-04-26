@@ -6,6 +6,7 @@ com/example/bookpub/entity/Author.class
 com/example/bookpub/StartupRunner.class
 com/example/bookpub/controller/BookController.class
 com/example/bookpub/repository/AuthorRepository.class
+com/example/bookpub/WebConfiguration$1.class
 com/example/bookpub/entity/Book.class
 com/example/bookpub/repository/BookRepository.class
 com/example/bookpub/entity/Reviewer.class

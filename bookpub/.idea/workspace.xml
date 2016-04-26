@@ -25,10 +25,12 @@
       <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookpub/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="40" column="17" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="113">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,12 +92,12 @@
       <file leaf-file-name="WebConfiguration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookpub/WebConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+            <state relative-caret-position="365">
+              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2069#2070#0" expanded="true" />
-                <element signature="e#2141#2142#0" expanded="true" />
+                <element signature="e#2280#2281#0" expanded="true" />
+                <element signature="e#2352#2353#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookpub/formatter/BookFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookpub/repository/PublisherRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookpub/StartupRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/bookpub/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookpub/WebConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/bookpub/controller/BookController.java" />
       </list>
     </option>
   </component>
@@ -811,8 +813,8 @@
           <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -831,6 +833,8 @@
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1199,22 +1203,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookpub/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="40" column="17" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="113">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookpub/WebConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        <state relative-caret-position="365">
+          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
           </folding>
         </state>
       </provider>
