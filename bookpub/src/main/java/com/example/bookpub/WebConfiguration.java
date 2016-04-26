@@ -1,8 +1,12 @@
 package com.example.bookpub;
 
+import com.example.bookpub.formatter.BookFormatter;
+import com.example.bookpub.repository.BookRepository;
 import org.apache.catalina.filters.RemoteIpFilter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.format.FormatterRegistry;
 import org.springframework.http.converter.ByteArrayHttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -44,4 +48,12 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
 //        converters.clear();
 //        converters.add(new ByteArrayHttpMessageConverter());
 //    }
+
+    @Autowired
+    private BookRepository bookRepository;
+
+    @Override
+    public void addFormatters(FormatterRegistry registry) {
+        registry.addFormatter(new BookFormatter(bookRepository));
+    }
 }
