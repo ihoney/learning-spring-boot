@@ -1,5 +1,4 @@
 com/example/bookpub/formatter/Isbn.class
-com/example/bookpub/DemoApplication.class
 com/example/bookpub/repository/PublisherRepository.class
 com/example/bookpub/WebConfiguration.class
 com/example/bookpub/entity/Author.class
@@ -9,6 +8,7 @@ com/example/bookpub/repository/AuthorRepository.class
 com/example/bookpub/WebConfiguration$1.class
 com/example/bookpub/entity/Book.class
 com/example/bookpub/repository/BookRepository.class
+com/example/bookpub/BookPubApplication.class
 com/example/bookpub/entity/Reviewer.class
 com/example/bookpub/formatter/IsbnEditor.class
 com/example/bookpub/entity/Publisher.class

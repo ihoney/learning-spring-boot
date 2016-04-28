@@ -1,8 +1,14 @@
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Reviewer.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/StartupRunner.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/WebConfiguration.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Publisher.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Author.java
-/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/DemoApplication.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/formatter/BookFormatter.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/controller/BookController.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/entity/Book.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/repository/AuthorRepository.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/BookPubApplication.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/formatter/Isbn.java
 /Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/repository/BookRepository.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/repository/PublisherRepository.java
+/Users/hongtao/Documents/develop/learning-spring-boot/bookpub/src/main/java/com/example/bookpub/formatter/IsbnEditor.java
