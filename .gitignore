@@ -13,3 +13,9 @@ hs_err_pid*
 
 # OS X .DS_Store
 .DS_Store
+
+# Intellij IDEA
+**/.idea/
+
+# Gradle
+**/gradle
