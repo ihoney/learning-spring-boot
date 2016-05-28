@@ -19,3 +19,6 @@ hs_err_pid*
 
 # Gradle
 **/.gradle
+
+# Directory 'target' of SpringBoot
+**/target
